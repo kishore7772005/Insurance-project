@@ -1,0 +1,115 @@
+/* Navbar Styling */
+.navbar {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-size: 1.6rem;
+  color: #0d6efd !important; /* Bootstrap primary blue */
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #333 !important;
+  transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #0d6efd !important;
+}
+
+.navbar .fa-user-circle {
+  transition: color 0.3s;
+}
+
+.navbar .fa-user-circle:hover {
+  color: #0d6efd;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Contact Page Enhancements */
+.contact-page {
+  background-color: #f8fbff;
+}
+
+.hover-raise {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-raise:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 6px 20px rgba(0, 0, 150, 0.2);
+}
+
+.hover-glow:hover {
+  box-shadow: 0 0 15px rgba(13, 110, 253, 0.4);
+}
+
+.contact-form-section {
+  background: linear-gradient(135deg, #e8f1ff, #ffffff);
+}
+
+.contact-img,
+.contact2-img {
+  border: 5px solid #e9f2ff;
+  border-radius: 20px;
+  transition: transform 0.4s ease;
+}
+
+.contact-img:hover,
+.contact2-img:hover {
+  transform: scale(1.05);
+}
+
+
+
+/* General Container */
+.insuretech-container {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Hero Section */
+.hero-section {
+  background: #007bff;
+  color: #fff;
+}
+
+/* Cards */
+.service-card, .plan-card {
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Lists */
+.top-companies-section .list-group-item {
+  background: transparent;
+  border: none;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.top-companies-section .list-group-item:hover {
+  background: #e0e0e0;
+  border-radius: 5px;
+}
+
+/* Footer */
+footer {
+  background: #212529;
+}
+
+
