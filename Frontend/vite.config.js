@@ -7,5 +7,9 @@ export default defineConfig({
   build: {
     chunkSizeWarningLimit: 2000, // increase warning limit to 2MB
   },
-  server
+  server : {
+    port: 5000 , 
+    host: '0.0.0.0' , 
+    allowedHosts: [ 'insurance-project-admin.onrender.com' ]
+  }
 })
