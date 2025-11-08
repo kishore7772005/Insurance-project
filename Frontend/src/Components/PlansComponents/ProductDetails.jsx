@@ -16,7 +16,7 @@ const ProductDetails = () => {
     } else {
       // fallback fetch if not in context
       axios
-        .get(`${import.meta.env.VITE_API_URL || "http://localhost:5000"}/api/products/${id}`)
+        .get(`${import.meta.env.VITE_API_URL || "https://insurance-backend-jiuc.onrender.com"}/api/products/${id}`)
         .then((res) => setProduct(res.data))
         .catch(() => setProduct(null));
     }
