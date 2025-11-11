@@ -7,6 +7,6 @@ export default defineConfig({
    server : {
     port: 5000 , 
     host: '0.0.0.0' , 
-    allowedHosts: [ 'insurance-project-u9wk.onrender.com' ]
+    allowedHosts: [ 'insurance-project-admin.onrender.com' ]
   }
 })
